@@ -235,3 +235,14 @@ footer {
     font-size: 32px;
   }
 }
+
+.hidden {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
